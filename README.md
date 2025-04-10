@@ -1,6 +1,19 @@
-# ChatMind 🤖💬
+# ChatMind 🤖🧠
 
-A lightweight and modular **C++ console chatbot** that learns from users, remembers personal facts, and logs unknown phrases for future improvement.
+**ChatMind** is an interactive **C++ console-based chatbot** that simulates a natural conversation with the user. Built from scratch using only the C++ Standard Library, ChatMind supports:
+
+- Predefined and randomized responses for casual interaction
+- User-driven learning through a `teach` command (e.g., `teach pizza I love pizza too!`)
+- Session-based memory to remember user information like **name**, **age**, **favorite food**, and **color**
+- Logging of unknown or unrecognized inputs to allow future training
+- A clean, modular project structure for maintainability and future expansion
+
+Unlike AI-driven bots, **ChatMind** relies on simple pattern-matching logic, memory maps, and user customization — making it an excellent educational project for understanding:
+- String manipulation
+- Conditionals
+- Memory handling with `map`
+- File I/O with `fstream`
+- Modular programming in C++
 
 ---
 
@@ -10,8 +23,8 @@ A lightweight and modular **C++ console chatbot** that learns from users, rememb
 - 🧠 Session-based memory (remembers name, age, favorite color, and food)
 - 📚 Users can teach new phrases at runtime with `teach <keyword> <response>`
 - 🗂️ Logs unknown inputs to `data/unknown_inputs.txt`
-- 🔠 All text input is case-insensitive
-- 📁 Cleanly structured and easily extendable C++ project
+- 🔠 Case-insensitive input handling
+- 📁 Clean and modular C++ project structure
 
 ---
 
