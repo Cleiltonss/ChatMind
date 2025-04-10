@@ -17,6 +17,7 @@ A lightweight and modular **C++ console chatbot** that learns from users, rememb
 
 ## 🧱 Project Structure
 
+```text
 ChatMind/                     # Root folder of the project
 ├── src/
 │   ├── main.cpp              # Entry point of the application
@@ -27,3 +28,4 @@ ChatMind/                     # Root folder of the project
 ├── build/                    # (Optional) Compiled output (created manually)
 ├── chatbot.exe               # Final compiled binary (on Windows)
 ├── README.md                 # Project documentation for GitHub
+
